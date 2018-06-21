@@ -1,0 +1,30 @@
+{
+  "name": "play-with-prisma",
+  "version": "1.0.0",
+  "description": "play with prisma",
+  "main": "index.js",
+  "scripts": {
+    "playground": "prisma playground",
+    "get-prisma-schema": "gql get-schema -project prisma",
+    "deploy-prisma": "prisma deploy && npm run get-prisma-schema"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subuta/play-with-prisma.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subuta/play-with-prisma/issues"
+  },
+  "homepage": "https://github.com/subuta/play-with-prisma#readme",
+  "devDependencies": {
+    "graphql-cli": "^2.16.3",
+    "prisma": "^1.10.2",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.14.10",
+    "prisma-binding": "^2.1.0"
+  }
+}
